@@ -19,6 +19,6 @@ _start:
 
     mov rax, 0x3c ; Exit syscall number 60 in hex
     movzx rdi, byte [buffer] ; Exit code received from the user
-    sub rdi, 48
+    sub rdi, 48 ; substract 48 because digit 0 is 48 in ASCII
     syscall
     

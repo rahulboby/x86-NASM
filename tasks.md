@@ -1,6 +1,6 @@
 # 15. Practical Programs and Exercises (these become your projects)
 
-* [ ] Write a program that exits with a chosen status code
+* [D] Write a program that exits with a chosen status code
 * [ ] Write a program that prints a message using a Linux syscall
 * [ ] Implement integer arithmetic and a calculator (+, −, ×, ÷ with `idiv`)
 * [ ] Implement conditions and loops
